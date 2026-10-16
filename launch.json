@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "Pepe2Pepe",
+    "name": "Pepe2Pepe",
+    "symbol": "P2P",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "3500000000000000000000",
+    "remainderTo": "0x18e0a43cb0236c3e2e6f6f229fc2ca36299a4636"
+  },
+  "notes": "Pepe2Pepe (P2P) is a fixed-supply OpenZeppelin v5.1.0 ERC-20 in src/Pepe2Pepe.sol. Its constructor takes no arguments and mints the whole supply of 1,000,000,000 tokens with 18 decimals (1000000000000000000000000000 base units) once to msg.sender, the factory. There are no further mint or burn methods, no fees or taxes on transfer, no owner, pause, blacklist, freeze or upgrade paths, and no external calls; every transfer delivers exactly the amount requested, so the swarm's share, the pool seed and trades move whole. The launch deploys no application contracts, and there are no initialization calls."
+}
